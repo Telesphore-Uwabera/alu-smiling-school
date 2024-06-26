@@ -262,4 +262,24 @@ background-color: black;
     font-size: 20px; 
     color: green; 
   }
+  .faq-section {
+    padding: 2rem 0;
+  }
+  
+  .faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .faq-section h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .faq-section .row {
+      display: flex;
+      flex-direction: column;
+    }
+  }
   

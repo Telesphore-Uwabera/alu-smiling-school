@@ -41,60 +41,138 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero-section text-center d-none d-lg-block">
+    <section class="hero-section text-center">
       <div class="container">
-        <h1 class="hero-title">« Don’t cry because it’s over. <span class="text-primary">Smile</span> because it happened. »</h1>
+        <div class="hero-content">
+          <h1>Welcome to SmileSchool</h1>
+          <div class="hero-subtitle">
+            <span>Your pathway to a brighter future</span>
+          </div>
+          <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
       </div>
     </section>
-  </div>
 
-  <!-- Search Filters Section -->
-  <section class="search-filters bg-primary py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-3 mb-lg-0">
-          <label for="search" class="text-white">Search</label>
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <span class="input-group-text bg-primary border-0 text-white"><i class="fas fa-search"></i></span>
-            </div>
-            <input type="text" id="search" class="form-control" placeholder="Search by keywords">
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
-          <label for="topic" class="text-white">TOPIC</label>
-          <div class="dropdown">
-            <button class="btn btn-block btn-outline-light dropdown-toggle form-control" type="button" id="topic" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Select Topic
-            </button>
-            <div class="dropdown-menu" aria-labelledby="topic">
-              <a class="dropdown-item" href="#">Topic 1</a>
-              <a class="dropdown-item" href="#">Topic 2</a>
-              <a class="dropdown-item" href="#">Topic 3</a>
+    <!-- Search Filters Section -->
+    <section class="search-filters bg-primary py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Search Field -->
+          <div class="col-lg-4 col-md-12 mb-3 mb-md-0">
+            <label class="text-white">Search:</label>
+            <div class="input-group">
+              <input type="text" class="form-control rounded-top" placeholder="Search by keywords" aria-label="Search">
+              <div class="input-group-append">
+                <span class="input-group-text rounded-top"><i class="fas fa-search"></i></span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <label for="sortby" class="text-white">SORT BY</label>
-          <div class="dropdown">
-            <button class="btn btn-block btn-outline-light dropdown-toggle form-control" type="button" id="sortby" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Sort by
-            </button>
-            <div class="dropdown-menu" aria-labelledby="sortby">
-              <a class="dropdown-item" href="#">Option 1</a>
-              <a class="dropdown-item" href="#">Option 2</a>
-              <a class="dropdown-item" href="#">Option 3</a>
+
+          <!-- Topic Dropdown -->
+          <div class="col-lg-4 col-md-6 mb-3 mb-md-0">
+            <label class="text-white">Topic:</label>
+            <div class="input-group">
+              <select class="form-control rounded-top">
+                <option selected>Select topic...</option>
+                <option value="1">Topic 1</option>
+                <option value="2">Topic 2</option>
+                <option value="3">Topic 3</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Sort By Dropdown -->
+          <div class="col-lg-4 col-md-6">
+            <label class="text-white">Sort By:</label>
+            <div class="input-group">
+              <select class="form-control rounded-top">
+                <option selected>Most Relevant</option>
+                <option value="1">Highest Rated</option>
+                <option value="2">Most Popular</option>
+                <option value="3">Newest</option>
+              </select>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Course Card 1 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="images/smile.jpg" class="card-img-top" alt="Course 1">
+              <div class="card-body">
+                <h5 class="card-title">Introduction to Web Development</h5>
+                <p class="card-text">Learn the basics of HTML, CSS, and JavaScript to create your first website.</p>
+                <p class="card-text"><small class="text-muted">Instructor: John Doe</small></p>
+                <div class="rating">
+                  <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                  <span class="duration ml-2">4.5 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course Card 2 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="images/smile.jpg" class="card-img-top" alt="Course 2">
+              <div class="card-body">
+                <h5 class="card-title">Python Programming for Beginners</h5>
+                <p class="card-text">Get started with Python programming from scratch.</p>
+                <p class="card-text"><small class="text-muted">Instructor: Jane Smith</small></p>
+                <div class="rating">
+                  <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9734;</span>
+                  <span class="duration ml-2">6 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course Card 3 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="images/smile.jpg" class="card-img-top" alt="Course 3">
+              <div class="card-body">
+                <h5 class="card-title">Digital Marketing Fundamentals</h5>
+                <p class="card-text">Understand the basics of digital marketing strategies and tools.</p>
+                <p class="card-text"><small class="text-muted">Instructor: Emily Brown</small></p>
+                <div class="rating">
+                  <span class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
+                  <span class="duration ml-2">3.5 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Course Card 4 -->
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card">
+              <img src="images/smile.jpg" class="card-img-top" alt="Course 4">
+              <div class="card-body">
+                <h5 class="card-title">Graphic Design Essentials</h5>
+                <p class="card-text">Learn the essentials of graphic design with practical examples.</p>
+                <p class="card-text"><small class="text-muted">Instructor: Michael Johnson</small></p>
+                <div class="rating">
+                  <span class="stars">&#9733; &#9733; &#9733; &#9734; &#9734;</span>
+                  <span class="duration ml-2">5 hours</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

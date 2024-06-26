@@ -133,31 +133,88 @@ header h2 .text-primary {
 /* Custom styles for carousel controls */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: transparent; /* Remove any background color */
-    background-image: none; /* Remove default background image */
-    width: 40px; /* Adjust width as needed */
-    height: 40px; /* Adjust height as needed */
-    border: none; /* Remove default border */
+    background-color: transparent;
+    background-image: none;
+    width: 40px; 
+    height: 40px; 
+    border: none; 
 }
 
 .carousel-control-prev-icon {
-    background-image: url('arrow_white_left.png'); /* Specify the icon image */
+    background-image: url('images/arrow_white_left.png'); 
 }
 
 .carousel-control-next-icon {
-    background-image: url('arrow_white_right.png'); /* Specify the icon image */
+    background-image: url('images/arrow_white_right.png'); 
 }
 
 /* Additional style for Most Popular Tutorials */
 .carousel-section.bg-white .carousel-control-prev-icon,
 .carousel-section.bg-white .carousel-control-next-icon {
-    background-image: none; /* Remove default background image */
+    background-image: none; 
 }
 
 .carousel-section.bg-white .carousel-control-prev-icon {
-    background-image: url('arrow_black_left.png'); /* Specify the icon image */
+    background-image: url('images/arrow_black_left.png'); 
 }
 
 .carousel-section.bg-white .carousel-control-next-icon {
-    background-image: url('arrow_black_right.png'); /* Specify the icon image */
+    background-image: url('images/arrow_black_right.png'); 
 }
+.text-primary {
+  color: #C271FF;
+}
+
+/*footer*/
+.footer {
+background-color: black;
+  border-top: 1px solid #dee2e6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  max-width: 150px; /* Adjust size as needed */
+}
+
+.social-link {
+  color: #343a40;
+  font-size: 24px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #007bff;
+}
+
+.text-muted {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .footer-logo {
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+
+  .text-center.text-lg-left {
+    text-align: center;
+  }
+
+  .text-center.text-lg-right {
+    text-align: center;
+  }
+
+  .social-link {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+}
+

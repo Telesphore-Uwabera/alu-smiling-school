@@ -5,7 +5,6 @@ Welcome to SmileSchool, where we aim to enhance your smile learning experience!
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -19,9 +18,6 @@ SmileSchool is an educational platform focused on improving smiles through a var
 - **Membership:** Free membership option with additional benefits.
 - **Testimonials:** Read what our users have to say about their experience.
 
-## Demo
-You can view a live demo of SmileSchool [here](https://your-demo-url.com).
-
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
 
@@ -32,7 +28,7 @@ To get a local copy up and running, follow these simple steps:
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/SmileSchool.git
+   git clone https://github.com/Telesphore-Uwabera/alu-smiling-school.git
    ```
 2. Install NPM packages
    ```sh
@@ -63,3 +59,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ### Contact:
 For inquiries, please email us at telesphore91073@gmail.com
+
+### Viewing
+To view the Smiling School website, please visit [Smiling School](https://telesphore-uwabera.github.io/alu-smiling-school/)

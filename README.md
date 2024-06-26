@@ -7,7 +7,6 @@ Welcome to SmileSchool, where we aim to enhance your smile learning experience!
 ## Table of Contents
 - [About](#about)
 - [Features](#features)
-
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)

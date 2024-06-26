@@ -282,4 +282,18 @@ background-color: black;
       flex-direction: column;
     }
   }
-  
+  .header {
+    background: url('images/pic_3.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+}
+
+.header-title {
+    font-family: 'Coiny', sans-serif;
+    color: white;
+}
+
+.text-primary {
+    color: #C271FF !important;
+}
